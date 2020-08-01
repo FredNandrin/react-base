@@ -1,9 +1,13 @@
-import { FETCH_DATA_PENDING, FETCH_DATA_ERROR, SET_ELIGIBILITY, FETCH_DEFAULT} from './actions'
+import {FETCH_DATA_PENDING, FETCH_DATA_ERROR, SET_ELIGIBILITY, FETCH_DEFAULT, SET_FIELD1, SEND_FORM} from './actions'
 
 const initState = {
     pending: false,
     error: null,
-    eligible: false
+    eligible: false,
+    msg: 'default msg',
+    form1: {
+        field1: 'ee'
+    }
 }
 
 export function dataFetching(state = initState, action){
@@ -14,6 +18,11 @@ export function dataFetching(state = initState, action){
             return {...state, pending: false, error: action.error}
         case SET_ELIGIBILITY:
             return {...state, eligible: action.isEligible}
+        case FETCH_DEFAULT:
+            return {...state, msg: action.data.default}
+        case SET_FIELD1:
+            console.log(action);
+            return {...state, form1:{...state.form1,field1:action.value}}
         default:
             return state
     }

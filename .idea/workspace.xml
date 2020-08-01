@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/testjs.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
@@ -45,13 +46,16 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1fVD2boj32WbYJ0TunR7CcmIK9y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -65,6 +69,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="aws" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,12 +105,15 @@
       <workItem from="1596299776628" duration="1798000" />
       <workItem from="1596301596258" duration="293000" />
       <workItem from="1596301943240" duration="80000" />
-      <workItem from="1596302093924" duration="5264000" />
+      <workItem from="1596302093924" duration="10787000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="417" y="23" key="#Dockerfile" timestamp="1596296618322">
@@ -120,5 +128,9 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="458" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.830@0.23.1440.830" timestamp="1596311705424" />
+    <state x="421" y="193" width="598" height="490" key="find.popup" timestamp="1596315775874">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="421" y="193" width="598" height="490" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1596315775874" />
   </component>
 </project>

@@ -1,11 +1,11 @@
-import { VisibilityFilters } from '../actions'
+import { VisibilityFilters } from './actions'
 
 const initialState = {
     visibilityFilter: VisibilityFilters.SHOW_ALL,
     todos: []
 }
 
-function todoApp(state, action) {
+function reducers(state, action) {
     if (typeof state === 'undefined') {
         return initialState
     }
@@ -15,4 +15,4 @@ function todoApp(state, action) {
     return state
 }
 
-export default todoApp;
+export default reducers;

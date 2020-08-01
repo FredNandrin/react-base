@@ -1,5 +1,11 @@
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
 .App {
     text-align: center;
+    background-color: #2a3958;
+    min-height: 100vh;
+    color: white;
 }
 
 .App-logo {
@@ -16,7 +22,6 @@
 }
 
 .App-header {
-    background-color: #2a3958;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
